@@ -1,2 +1,2 @@
-# cloud-resume-challenge-2025
+# cloud-resume-challenge
 My attempt at completing the Cloud Resume Challenge with AWS
