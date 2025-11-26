@@ -29,5 +29,26 @@ This is what the generated HTML looks like unaltered:
 
 - Because we will be applying mobile styling to our website, we'll include the viewport meta tag width=device-width so mobile styling scales normally
 - We'll extract our styles into its own stylesheet after we are happy with our HTML markup
-- We'll simply our HTML markup css selector to be as minimal as possible.
+- We'll simplify our HTML markup css selector to be as minimal as possible.
 - For the HTML page, I'll use soft tabs two spaces because I like the look.
+
+## Serve Static Website Locally
+We need to server our website locally so we can start using stylesheets externally from our HTML page in a 
+Cloud Developer Environment (CDE).
+
+### Install HTTP Server
+Assuming we have node install we'll use the simple web-server http-server
+```sh
+npm i http-server -g
+```
+https://www.npmjs.com/package/http-server
+
+### Serve Website
+
+http-server will serve a public folder where the command is ran.
+
+```sh
+cd frontend
+http-server
+```
+
