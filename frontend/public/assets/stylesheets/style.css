@@ -106,8 +106,8 @@ body[location='resume'] .item {
     gap: 8px 0;
 }
 body[location='resume'] .item .info {
-    max-width: 600px; 
-    padding-left: 12px;
+    max-width: 620px; 
+    padding-left: 0;
 }
 
 body[location='resume'] .item_heading {
@@ -138,13 +138,14 @@ body[location='resume'] .item .info p {
 }
 
 body[location='resume'] .bullets {
-    max-width: 600px;    /* narrower, cleaner */
-    margin-left: 8px;
+    max-width: 620px;    /* narrower, cleaner */
+    margin-left: 0;
     margin-top: 6px;   
 }
 
 body[location='resume'] .bullets ul {
     padding-left: 18px;
+    margin-top: 6px;
     line-height: 1.5;
 }
 
