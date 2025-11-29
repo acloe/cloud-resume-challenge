@@ -52,3 +52,7 @@ cd frontend
 http-server
 ```
 
+### Alot of ChatGPT massaging
+Used ChatGPT for help with massaging the CSS style to help dial it in.
+
+
