@@ -55,4 +55,13 @@ http-server
 ### Alot of ChatGPT massaging
 Used ChatGPT for help with massaging the CSS style to help dial it in.
 
+## FrontEnd Framework Consideration
+
+- Chose to use React because it is the most popular javascript framework.
+- Chose to use Vite.js over webpack because our frontend is very simple.
+- Configured React Router v7, decided to use declarative mode because again our app is very simple.
+
+To run project in Codespace, install react-router and run dev script
+- npm i react-router --save
+- npm run dev
 
